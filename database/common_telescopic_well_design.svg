@@ -1,0 +1,1624 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="800"
+   height="1000"
+   viewBox="0 0 800 1000"
+   font-family="Arial, sans-serif"
+   version="1.1"
+   id="svg142"
+   sodipodi:docname="fig.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview142"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.796"
+     inkscape:cx="374.16481"
+     inkscape:cy="547.88419"
+     inkscape:window-width="3840"
+     inkscape:window-height="2054"
+     inkscape:window-x="1609"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg142" />
+  <!-- Title -->
+  <text
+     x="750"
+     y="40"
+     font-size="18px"
+     text-anchor="end"
+     font-weight="bold"
+     id="text1">Common telescopic well architecture</text>
+  <!-- Arrow Markers -->
+  <defs
+     id="defs1">
+    <marker
+       id="arrow"
+       viewBox="0 0 10 10"
+       refX="10"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0 0 L 10 5 L 0 10 z"
+         fill="black"
+         id="path1" />
+    </marker>
+    <style
+       id="style1">&#10;            .node { fill: white; stroke: black; stroke-width: 1.2; }&#10;            .val { font-size: 13; text-anchor: middle; dominant-baseline: middle; fill: black; }&#10;            .side-label { font-size: 13; text-anchor: end; fill: black; }&#10;            .arrow { stroke: black; stroke-width: 1.2; fill: none; marker-end: url(#arrow); }&#10;            .dashed { stroke-dasharray: 4,3; }&#10;        </style>
+    <marker
+       id="arrow-6"
+       viewBox="0 0 10 10"
+       refX="10"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#000000"
+         id="path1-6" />
+    </marker>
+    <marker
+       id="arrow-3"
+       viewBox="0 0 10 10"
+       refX="10"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#000000"
+         id="path1-2" />
+    </marker>
+    <marker
+       id="arrow-4"
+       viewBox="0 0 10 10"
+       refX="10"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#000000"
+         id="path1-69" />
+    </marker>
+    <marker
+       id="arrow-7"
+       viewBox="0 0 10 10"
+       refX="10"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#000000"
+         id="path1-8" />
+    </marker>
+    <marker
+       id="arrow-7-1"
+       viewBox="0 0 10 10"
+       refX="10"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#000000"
+         id="path1-8-2" />
+    </marker>
+    <marker
+       id="arrow-8"
+       viewBox="0 0 10 10"
+       refX="10"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#000000"
+         id="path1-64" />
+    </marker>
+    <marker
+       id="arrow-65"
+       viewBox="0 0 10 10"
+       refX="10"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#000000"
+         id="path1-7" />
+    </marker>
+    <marker
+       id="arrow-65-4"
+       viewBox="0 0 10 10"
+       refX="10"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#000000"
+         id="path1-7-6" />
+    </marker>
+    <marker
+       id="arrow-84"
+       viewBox="0 0 10 10"
+       refX="10"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#000000"
+         id="path1-5" />
+    </marker>
+    <marker
+       id="arrow-84-0"
+       viewBox="0 0 10 10"
+       refX="10"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#000000"
+         id="path1-5-7" />
+    </marker>
+    <marker
+       id="arrow-81"
+       viewBox="0 0 10 10"
+       refX="10"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#000000"
+         id="path1-9" />
+    </marker>
+    <marker
+       id="arrow-84-0-0"
+       viewBox="0 0 10 10"
+       refX="10"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#000000"
+         id="path1-5-7-6" />
+    </marker>
+  </defs>
+  <!-- Side Labels -->
+  <g
+     class="side-label"
+     id="g11">
+    <text
+       x="240"
+       y="110"
+       id="text2">Hole size (in)</text>
+    <text
+       x="240"
+       y="190"
+       id="text3">Casing outer diameter (in)</text>
+    <text
+       x="240"
+       y="270"
+       id="text4">Hole size (in)</text>
+    <text
+       x="240"
+       y="350"
+       id="text5">Casing outer diameter (in)</text>
+    <text
+       x="240"
+       y="430"
+       id="text6">Hole size (in)</text>
+    <text
+       x="240"
+       y="510"
+       id="text7">Casing outer diameter (in)</text>
+    <text
+       x="240"
+       y="590"
+       id="text8">Hole size (in)</text>
+    <text
+       x="240"
+       y="670"
+       id="text9">Casing outer diameter (in)</text>
+    <text
+       x="240"
+       y="750"
+       id="text10">Hole size (in)</text>
+    <text
+       x="240"
+       y="830"
+       id="text11">Casing outer diameter (in)</text>
+  </g>
+  <!-- ARROWS (Drawn first so they are behind circles) -->
+  <!-- Row 1 to 2 -->
+  <line
+     x1="510"
+     y1="135"
+     x2="510"
+     y2="165"
+     class="arrow"
+     id="line11"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <line
+     x1="425"
+     y1="215.21634"
+     x2="425"
+     y2="245.21634"
+     class="arrow"
+     id="line11-1"
+     style="fill:none;stroke:#000000;stroke-width:1.8;marker-end:url(#arrow-6);stroke-dasharray:none" />
+  <line
+     x1="680"
+     y1="135"
+     x2="680"
+     y2="165"
+     class="arrow"
+     id="line12"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <line
+     x1="760"
+     y1="135"
+     x2="760"
+     y2="165"
+     class="arrow"
+     id="line13"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <!-- Row 2 to 3 -->
+  <line
+     x1="404.00809"
+     y1="206.49242"
+     x2="348.17285"
+     y2="251.58771"
+     class="arrow dashed"
+     id="line15"
+     style="stroke-width:1.8;stroke-dasharray:5.99999971,4.49999993;stroke-dashoffset:0" />
+  <line
+     x1="498.09274"
+     y1="206.4612"
+     x2="444.60172"
+     y2="251.92735"
+     class="arrow dashed"
+     id="line15-7"
+     style="fill:none;stroke:#000000;stroke-width:1.8;stroke-dasharray:5.99999331,4.49999411;marker-end:url(#arrow-3);stroke-dashoffset:0" />
+  <line
+     x1="510"
+     y1="215"
+     x2="510"
+     y2="245"
+     class="arrow"
+     id="line17"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <line
+     x1="525.18512"
+     y1="210.68571"
+     x2="576.27148"
+     y2="251.40086"
+     class="arrow"
+     id="line18"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <line
+     x1="662.61841"
+     y1="288.45413"
+     x2="616.00323"
+     y2="330.95251"
+     class="arrow"
+     id="line18-2"
+     style="fill:none;stroke:#000000;stroke-width:1.8;marker-end:url(#arrow-4);stroke-dasharray:none" />
+  <line
+     x1="663.07721"
+     y1="210.76302"
+     x2="612.48724"
+     y2="250.713"
+     class="arrow dashed"
+     id="line19"
+     style="stroke-width:1.8;stroke-dasharray:5.99999971,4.49999935;stroke-dashoffset:0" />
+  <line
+     x1="680"
+     y1="215"
+     x2="680"
+     y2="245"
+     class="arrow"
+     id="line20"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <line
+     x1="743.10205"
+     y1="210.85753"
+     x2="697.7688"
+     y2="250.259"
+     class="arrow dashed"
+     id="line21"
+     style="stroke-width:1.8;stroke-dasharray:5.99999971,4.49999993;stroke-dashoffset:0" />
+  <line
+     x1="760"
+     y1="215"
+     x2="760"
+     y2="245"
+     class="arrow"
+     id="line22"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <!-- Row 3 to 4 -->
+  <line
+     x1="330"
+     y1="295"
+     x2="330"
+     y2="325"
+     class="arrow"
+     id="line23"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <line
+     x1="403.93234"
+     y1="288.16763"
+     x2="348.1445"
+     y2="328.82867"
+     class="arrow dashed"
+     id="line24"
+     style="stroke-width:1.8;stroke-dasharray:5.99999855,4.49999935;stroke-dashoffset:0" />
+  <line
+     x1="444.8284"
+     y1="288.31436"
+     x2="490.28741"
+     y2="331.68564"
+     class="arrow"
+     id="line25"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <line
+     x1="510"
+     y1="295"
+     x2="510"
+     y2="325"
+     class="arrow"
+     id="line26"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <line
+     x1="576.33453"
+     y1="288.44672"
+     x2="527.49402"
+     y2="330.93719"
+     class="arrow dashed"
+     id="line27"
+     style="stroke-width:1.8;stroke-dasharray:5.99999971,4.49999993;stroke-dashoffset:0" />
+  <line
+     x1="595"
+     y1="295"
+     x2="595"
+     y2="325"
+     class="arrow"
+     id="line28"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <line
+     x1="680"
+     y1="295"
+     x2="680"
+     y2="325"
+     class="arrow"
+     id="line29"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <line
+     x1="745.87433"
+     y1="287.60193"
+     x2="697.81201"
+     y2="331.24185"
+     class="arrow dashed"
+     id="line30"
+     style="stroke-width:1.8;stroke-dasharray:5.99999855,4.49999935;stroke-dashoffset:0" />
+  <line
+     x1="760"
+     y1="295"
+     x2="760"
+     y2="325"
+     class="arrow"
+     id="line31"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <!-- Row 4 to 5 -->
+  <line
+     x1="330"
+     y1="375"
+     x2="330"
+     y2="405"
+     class="arrow"
+     id="line32"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <line
+     x1="348.05542"
+     y1="371.55841"
+     x2="406.86731"
+     y2="408.36078"
+     class="arrow"
+     id="line33"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <line
+     x1="490.44467"
+     y1="371.42682"
+     x2="444.70883"
+     y2="409.31"
+     class="arrow"
+     id="line34"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <line
+     x1="510"
+     y1="375"
+     x2="510"
+     y2="405"
+     class="arrow"
+     id="line35"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <line
+     x1="579.3241"
+     y1="370.0029"
+     x2="527.43427"
+     y2="409.9971"
+     class="arrow dashed"
+     id="line36"
+     style="stroke-width:1.8;stroke-dasharray:5.99998881,4.49998883;stroke-dashoffset:0" />
+  <line
+     x1="572.78229"
+     y1="364.07895"
+     x2="450.65118"
+     y2="418.87747"
+     class="arrow dashed"
+     id="line36-7"
+     style="fill:none;stroke:#000000;stroke-width:1.8;stroke-dasharray:5.99998109,4.49999058;marker-end:url(#arrow-7);stroke-dashoffset:0" />
+  <line
+     x1="744.65985"
+     y1="369.47354"
+     x2="697.86523"
+     y2="409.32965"
+     class="arrow dashed"
+     id="line36-7-5"
+     style="fill:none;stroke:#000000;stroke-width:1.8;stroke-dasharray:5.99998871,4.50000012;marker-end:url(#arrow-7-1);stroke-dashoffset:0" />
+  <line
+     x1="595"
+     y1="375"
+     x2="595"
+     y2="405"
+     class="arrow dashed"
+     id="line37"
+     style="stroke-width:1.8;stroke-dasharray:5.99999968,4.49999964;stroke-dashoffset:0" />
+  <line
+     x1="595"
+     y1="375"
+     x2="595"
+     y2="405"
+     class="arrow"
+     id="line38"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <line
+     x1="661.62158"
+     y1="370.19321"
+     x2="612.4173"
+     y2="409.80679"
+     class="arrow dashed"
+     id="line39"
+     style="stroke-width:1.8;stroke-dasharray:6.00002291,4.50001718;stroke-dashoffset:0" />
+  <line
+     x1="680"
+     y1="375"
+     x2="680"
+     y2="405"
+     class="arrow"
+     id="line40"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <line
+     x1="760"
+     y1="375"
+     x2="760"
+     y2="405"
+     class="arrow"
+     id="line41"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <!-- Row 5 to 6 -->
+  <line
+     x1="330"
+     y1="455"
+     x2="330"
+     y2="485"
+     class="arrow"
+     id="line42"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <line
+     x1="351.27606"
+     y1="451.89551"
+     x2="406.94839"
+     y2="488.10449"
+     class="arrow"
+     id="line43"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <line
+     x1="425"
+     y1="455"
+     x2="425"
+     y2="485"
+     class="arrow"
+     id="line44"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <line
+     x1="493.15399"
+     y1="452.02594"
+     x2="444.7197"
+     y2="490.83844"
+     class="arrow dashed"
+     id="line45"
+     style="stroke-width:1.8;stroke-dasharray:5.99999971,4.49999993;stroke-dashoffset:0" />
+  <line
+     x1="527.401"
+     y1="451.8432"
+     x2="576.47357"
+     y2="490.82938"
+     class="arrow"
+     id="line46"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <line
+     x1="680"
+     y1="455"
+     x2="680"
+     y2="485"
+     class="arrow"
+     id="line48"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <line
+     x1="595"
+     y1="455.43268"
+     x2="595"
+     y2="485.43268"
+     class="arrow"
+     id="line48-6"
+     style="fill:none;stroke:#000000;stroke-width:1.8;marker-end:url(#arrow-8);stroke-dasharray:none" />
+  <line
+     x1="760"
+     y1="455"
+     x2="760"
+     y2="485"
+     class="arrow"
+     id="line50"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <!-- Row 6 to 7 -->
+  <line
+     x1="330"
+     y1="535"
+     x2="330"
+     y2="565"
+     class="arrow"
+     id="line51"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <line
+     x1="444.61478"
+     y1="529.65143"
+     x2="493.08655"
+     y2="568.8092"
+     class="arrow"
+     id="line52"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <line
+     x1="578.13361"
+     y1="529.85699"
+     x2="527.71259"
+     y2="571.36749"
+     class="arrow dashed"
+     id="line53"
+     style="stroke-width:1.8;stroke-dasharray:5.99999971,4.49999993;stroke-dashoffset:0" />
+  <line
+     x1="595"
+     y1="535"
+     x2="595"
+     y2="565"
+     class="arrow"
+     id="line54"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <line
+     x1="407.74625"
+     y1="529.58466"
+     x2="347.58026"
+     y2="571.39764"
+     class="arrow dashed"
+     id="line55"
+     style="stroke-width:1.8;stroke-dasharray:5.99999971,4.49999935;stroke-dashoffset:0" />
+  <line
+     x1="680"
+     y1="535"
+     x2="680"
+     y2="565"
+     class="arrow"
+     id="line56"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <line
+     x1="734.70837"
+     y1="519.38849"
+     x2="619.48615"
+     y2="577.99438"
+     class="arrow dashed"
+     id="line57"
+     style="stroke-width:1.8;stroke-dasharray:5.9999839,4.49998549;stroke-dashoffset:0" />
+  <line
+     x1="760"
+     y1="535"
+     x2="760"
+     y2="565"
+     class="arrow"
+     id="line58"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <!-- Row 7 to 8 -->
+  <line
+     x1="330"
+     y1="615"
+     x2="330"
+     y2="645"
+     class="arrow"
+     id="line59"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <line
+     x1="510"
+     y1="615"
+     x2="510"
+     y2="645"
+     class="arrow"
+     id="line60"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <line
+     x1="595"
+     y1="615"
+     x2="595"
+     y2="645"
+     class="arrow"
+     id="line62"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <line
+     x1="680"
+     y1="615"
+     x2="680"
+     y2="645"
+     class="arrow"
+     id="line63"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <line
+     x1="743.11609"
+     y1="611.08057"
+     x2="697.75745"
+     y2="648.94067"
+     class="arrow dashed"
+     id="line64"
+     style="stroke-dasharray:none;stroke-width:1.8" />
+  <line
+     x1="760"
+     y1="615"
+     x2="760"
+     y2="645"
+     class="arrow"
+     id="line65"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <!-- Row 8 to 9 -->
+  <line
+     x1="330"
+     y1="695"
+     x2="330"
+     y2="725"
+     class="arrow"
+     id="line66"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <line
+     x1="347.2337"
+     y1="690.68713"
+     x2="406.06683"
+     y2="730.61652"
+     class="arrow"
+     id="line67"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <line
+     x1="612.34625"
+     y1="689.28979"
+     x2="663.12445"
+     y2="730.71021"
+     class="arrow"
+     id="line67-1"
+     style="fill:none;stroke:#000000;stroke-width:1.8;marker-end:url(#arrow-84);stroke-dasharray:none" />
+  <line
+     x1="619.42981"
+     y1="681.2193"
+     x2="740.33429"
+     y2="732.54883"
+     class="arrow"
+     id="line67-1-1"
+     style="fill:none;stroke:#000000;stroke-width:1.8;stroke-dasharray:none;marker-end:url(#arrow-84-0)" />
+  <line
+     x1="701.28406"
+     y1="683.07715"
+     x2="745.79138"
+     y2="726.55646"
+     class="arrow"
+     id="line67-1-1-1"
+     style="fill:none;stroke:#000000;stroke-width:1.8;stroke-dasharray:none;marker-end:url(#arrow-84-0-0)" />
+  <line
+     x1="484.18472"
+     y1="676.50134"
+     x2="351.27536"
+     y2="734.15778"
+     class="arrow dashed"
+     id="line68"
+     style="stroke-width:1.8;stroke-dasharray:5.99999855,4.49999935;stroke-dashoffset:0" />
+  <line
+     x1="510"
+     y1="695"
+     x2="510"
+     y2="725"
+     class="arrow"
+     id="line69"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <line
+     x1="493.07187"
+     y1="690.7229"
+     x2="444.53525"
+     y2="731.18677"
+     class="arrow"
+     id="line70"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <line
+     x1="493.09354"
+     y1="770.46918"
+     x2="442.64392"
+     y2="810.33698"
+     class="arrow"
+     id="line70-35"
+     style="fill:none;stroke:#000000;stroke-width:1.8;marker-end:url(#arrow-81);stroke-dasharray:none" />
+  <line
+     x1="660.13721"
+     y1="528.51166"
+     x2="612.78735"
+     y2="568.87122"
+     class="arrow"
+     id="line70-3"
+     style="fill:none;stroke:#000000;stroke-width:1.8;marker-end:url(#arrow-65);stroke-dasharray:none" />
+  <line
+     x1="747.21265"
+     y1="532.8775"
+     x2="699.86279"
+     y2="573.23706"
+     class="arrow"
+     id="line70-3-3"
+     style="fill:none;stroke:#000000;stroke-width:1.8;marker-end:url(#arrow-65-4);stroke-dasharray:none" />
+  <line
+     x1="578.08276"
+     y1="690.81812"
+     x2="527.42834"
+     y2="730.06085"
+     class="arrow dashed"
+     id="line71"
+     style="stroke-width:1.8;stroke-dasharray:5.99999971,4.49999993;stroke-dashoffset:0" />
+  <line
+     x1="595"
+     y1="695"
+     x2="595"
+     y2="725"
+     class="arrow"
+     id="line72"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <line
+     x1="680"
+     y1="695"
+     x2="680"
+     y2="725"
+     class="arrow"
+     id="line73"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <line
+     x1="743.13977"
+     y1="689.41968"
+     x2="697.77179"
+     y2="730.23816"
+     class="arrow dashed"
+     id="line74"
+     style="stroke-width:1.8;stroke-dasharray:5.99999968,4.50000012;stroke-dashoffset:0" />
+  <line
+     x1="760"
+     y1="695"
+     x2="760"
+     y2="725"
+     class="arrow"
+     id="line75"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <!-- Row 9 to 10 -->
+  <line
+     x1="330"
+     y1="775"
+     x2="330"
+     y2="805"
+     class="arrow"
+     id="line76"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <line
+     x1="425"
+     y1="775"
+     x2="425"
+     y2="805"
+     class="arrow"
+     id="line77"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <line
+     x1="510"
+     y1="775"
+     x2="510"
+     y2="805"
+     class="arrow"
+     id="line78"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <line
+     x1="595"
+     y1="775"
+     x2="595"
+     y2="805"
+     class="arrow"
+     id="line79"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <line
+     x1="696.25366"
+     y1="770.89337"
+     x2="743.74634"
+     y2="813.93213"
+     class="arrow"
+     id="line80"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <line
+     x1="760"
+     y1="775"
+     x2="760"
+     y2="805"
+     class="arrow"
+     id="line81"
+     style="stroke-width:1.8;stroke-dasharray:none" />
+  <!-- NODES AND VALUES -->
+  <!-- Row 1 -->
+  <circle
+     cx="510"
+     cy="110"
+     r="25"
+     class="node"
+     id="circle81" />
+  <text
+     x="510"
+     y="110"
+     class="val"
+     font-size="12"
+     id="text81">3 <tspan dy="-2" font-size="9">3</tspan><tspan dy="2" font-size="10">/</tspan><tspan dy="2" font-size="9">4</tspan></text>
+  <circle
+     cx="680"
+     cy="110"
+     r="25"
+     class="node"
+     id="circle82" />
+  <text
+     x="680"
+     y="110"
+     class="val"
+     font-size="12"
+     id="text82">4</text>
+  <circle
+     cx="760"
+     cy="110"
+     r="25"
+     class="node"
+     id="circle83" />
+  <text
+     x="760"
+     y="110"
+     class="val"
+     font-size="12"
+     id="text83">4 <tspan dy="-2" font-size="9">3</tspan><tspan dy="2" font-size="10">/</tspan><tspan dy="2" font-size="9">4</tspan></text>
+  <!-- Row 2 -->
+  <circle
+     cx="425"
+     cy="190"
+     r="25"
+     class="node"
+     id="circle84"
+     style="stroke:#ae0000;stroke-opacity:1" />
+  <text
+     x="425"
+     y="190"
+     class="val"
+     font-size="12"
+     id="text84">4</text>
+  <circle
+     cx="510"
+     cy="190"
+     r="25"
+     class="node"
+     id="circle85"
+     style="stroke:#ae0000;stroke-opacity:1" />
+  <text
+     x="510"
+     y="190"
+     class="val"
+     font-size="12"
+     id="text85">4 <tspan dy="-2" font-size="9">1</tspan><tspan dy="2" font-size="10">/</tspan><tspan dy="2" font-size="9">2</tspan></text>
+  <circle
+     cx="680"
+     cy="190"
+     r="25"
+     class="node"
+     id="circle86"
+     style="stroke:#ae0000;stroke-opacity:1" />
+  <text
+     x="680"
+     y="190"
+     class="val"
+     font-size="12"
+     id="text86">5</text>
+  <circle
+     cx="760"
+     cy="190"
+     r="25"
+     class="node"
+     id="circle87"
+     style="stroke:#ae0000;stroke-opacity:1" />
+  <text
+     x="760"
+     y="190"
+     class="val"
+     font-size="12"
+     id="text87">5 <tspan dy="-2" font-size="9">1</tspan><tspan dy="2" font-size="10">/</tspan><tspan dy="2" font-size="9">2</tspan></text>
+  <!-- Row 3 -->
+  <circle
+     cx="330"
+     cy="270"
+     r="25"
+     class="node"
+     id="circle88" />
+  <text
+     x="330"
+     y="270"
+     class="val"
+     font-size="12"
+     id="text88">4 <tspan dy="-2" font-size="9">3</tspan><tspan dy="2" font-size="10">/</tspan><tspan dy="2" font-size="9">4</tspan></text>
+  <circle
+     cx="425"
+     cy="270"
+     r="25"
+     class="node"
+     id="circle89" />
+  <text
+     x="425"
+     y="270"
+     class="val"
+     font-size="12"
+     id="text89">5 <tspan dy="-2" font-size="9">7</tspan><tspan dy="2" font-size="10">/</tspan><tspan dy="2" font-size="9">8</tspan></text>
+  <circle
+     cx="510"
+     cy="270"
+     r="25"
+     class="node"
+     id="circle90" />
+  <text
+     x="510"
+     y="270"
+     class="val"
+     font-size="12"
+     id="text90">6</text>
+  <circle
+     cx="595"
+     cy="270"
+     r="25"
+     class="node"
+     id="circle91" />
+  <text
+     x="595"
+     y="270"
+     class="val"
+     font-size="12"
+     id="text91">6 <tspan dy="-2" font-size="9">1</tspan><tspan dy="2" font-size="10">/</tspan><tspan dy="2" font-size="9">8</tspan></text>
+  <circle
+     cx="680"
+     cy="270"
+     r="25"
+     class="node"
+     id="circle92" />
+  <text
+     x="680"
+     y="270"
+     class="val"
+     font-size="12"
+     id="text92">6 <tspan dy="-2" font-size="9">1</tspan><tspan dy="2" font-size="10">/</tspan><tspan dy="2" font-size="9">2</tspan></text>
+  <circle
+     cx="760"
+     cy="270"
+     r="25"
+     class="node"
+     id="circle93" />
+  <text
+     x="760"
+     y="270"
+     class="val"
+     font-size="12"
+     id="text93">7 <tspan dy="-2" font-size="9">7</tspan><tspan dy="2" font-size="10">/</tspan><tspan dy="2" font-size="9">8</tspan></text>
+  <!-- Row 4 -->
+  <circle
+     cx="330"
+     cy="350"
+     r="25"
+     class="node"
+     id="circle94"
+     style="stroke:#ae0000;stroke-opacity:1" />
+  <text
+     x="330"
+     y="350"
+     class="val"
+     font-size="12"
+     id="text94">6 <tspan dy="-2" font-size="9">5</tspan><tspan dy="2" font-size="10">/</tspan><tspan dy="2" font-size="9">8</tspan></text>
+  <circle
+     cx="510"
+     cy="350"
+     r="25"
+     class="node"
+     id="circle95"
+     style="stroke:#ae0000;stroke-opacity:1" />
+  <text
+     x="510"
+     y="350"
+     class="val"
+     font-size="12"
+     id="text95">7</text>
+  <circle
+     cx="595"
+     cy="350"
+     r="25"
+     class="node"
+     id="circle96"
+     style="stroke:#ae0000;stroke-opacity:1" />
+  <text
+     x="595"
+     y="343"
+     class="val"
+     font-size="12"
+     id="text96">7 <tspan dy="-2" font-size="9">5</tspan><tspan dy="2" font-size="10">/</tspan><tspan dy="2" font-size="9">8</tspan></text>
+  <text
+     x="595"
+     y="357"
+     class="val"
+     font-size="12"
+     id="text97">7 <tspan dy="-2" font-size="9">3</tspan><tspan dy="2" font-size="10">/</tspan><tspan dy="2" font-size="9">4</tspan></text>
+  <circle
+     cx="680"
+     cy="350"
+     r="25"
+     class="node"
+     id="circle97"
+     style="stroke:#ae0000;stroke-opacity:1" />
+  <text
+     x="680"
+     y="350"
+     class="val"
+     font-size="12"
+     id="text98">8 <tspan dy="-2" font-size="9">5</tspan><tspan dy="2" font-size="10">/</tspan><tspan dy="2" font-size="9">8</tspan></text>
+  <circle
+     cx="760"
+     cy="350"
+     r="25"
+     class="node"
+     id="circle98"
+     style="stroke:#ae0000;stroke-opacity:1" />
+  <text
+     x="760"
+     y="343"
+     class="val"
+     font-size="12"
+     id="text99">9 <tspan dy="-2" font-size="9">5</tspan><tspan dy="2" font-size="10">/</tspan><tspan dy="2" font-size="9">8</tspan></text>
+  <text
+     x="760"
+     y="357"
+     class="val"
+     font-size="12"
+     id="text100">9 <tspan dy="-2" font-size="9">7</tspan><tspan dy="2" font-size="10">/</tspan><tspan dy="2" font-size="9">8</tspan></text>
+  <!-- Row 5 -->
+  <circle
+     cx="330"
+     cy="430"
+     r="25"
+     class="node"
+     id="circle100" />
+  <text
+     x="330"
+     y="430"
+     class="val"
+     font-size="12"
+     id="text101">7 <tspan dy="-2" font-size="9">7</tspan><tspan dy="2" font-size="10">/</tspan><tspan dy="2" font-size="9">8</tspan></text>
+  <circle
+     cx="425"
+     cy="430"
+     r="25"
+     class="node"
+     id="circle101" />
+  <text
+     x="425"
+     y="430"
+     class="val"
+     font-size="12"
+     id="text102">8 <tspan dy="-2" font-size="9">1</tspan><tspan dy="2" font-size="10">/</tspan><tspan dy="2" font-size="9">2</tspan></text>
+  <circle
+     cx="510"
+     cy="430"
+     r="25"
+     class="node"
+     id="circle102" />
+  <text
+     x="510"
+     y="430"
+     class="val"
+     font-size="12"
+     id="text103">8 <tspan dy="-2" font-size="9">3</tspan><tspan dy="2" font-size="10">/</tspan><tspan dy="2" font-size="9">4</tspan></text>
+  <circle
+     cx="595"
+     cy="430"
+     r="25"
+     class="node"
+     id="circle103" />
+  <text
+     x="595"
+     y="430"
+     class="val"
+     font-size="12"
+     id="text104">9 <tspan dy="-2" font-size="9">1</tspan><tspan dy="2" font-size="10">/</tspan><tspan dy="2" font-size="9">2</tspan></text>
+  <circle
+     cx="680"
+     cy="430"
+     r="25"
+     class="node"
+     id="circle104" />
+  <text
+     x="680"
+     y="430"
+     class="val"
+     font-size="12"
+     id="text105">10 <tspan dy="-2" font-size="9">5</tspan><tspan dy="2" font-size="10">/</tspan><tspan dy="2" font-size="9">8</tspan></text>
+  <circle
+     cx="760"
+     cy="430"
+     r="25"
+     class="node"
+     id="circle105" />
+  <text
+     x="760"
+     y="430"
+     class="val"
+     font-size="12"
+     id="text106">12 <tspan dy="-2" font-size="9">1</tspan><tspan dy="2" font-size="10">/</tspan><tspan dy="2" font-size="9">4</tspan></text>
+  <!-- Row 6 -->
+  <circle
+     cx="330"
+     cy="510"
+     r="25"
+     class="node"
+     id="circle106"
+     style="stroke:#ae0000;stroke-opacity:1" />
+  <text
+     x="330"
+     y="510"
+     class="val"
+     font-size="12"
+     id="text107">8 <tspan dy="-2" font-size="9">5</tspan><tspan dy="2" font-size="10">/</tspan><tspan dy="2" font-size="9">8</tspan></text>
+  <circle
+     cx="425"
+     cy="510"
+     r="25"
+     class="node"
+     id="circle107"
+     style="stroke:#ae0000;stroke-opacity:1" />
+  <text
+     x="425"
+     y="503"
+     class="val"
+     font-size="12"
+     id="text108">9 <tspan dy="-2" font-size="9">5</tspan><tspan dy="2" font-size="10">/</tspan><tspan dy="2" font-size="9">8</tspan></text>
+  <text
+     x="425"
+     y="517"
+     class="val"
+     font-size="12"
+     id="text109">9 <tspan dy="-2" font-size="9">7</tspan><tspan dy="2" font-size="10">/</tspan><tspan dy="2" font-size="9">8</tspan></text>
+  <circle
+     cx="595"
+     cy="510"
+     r="25"
+     class="node"
+     id="circle109"
+     style="stroke:#ae0000;stroke-opacity:1" />
+  <text
+     x="595"
+     y="510"
+     class="val"
+     font-size="12"
+     id="text110">10 <tspan dy="-2" font-size="9">3</tspan><tspan dy="2" font-size="10">/</tspan><tspan dy="2" font-size="9">4</tspan></text>
+  <circle
+     cx="680"
+     cy="510"
+     r="25"
+     class="node"
+     id="circle110"
+     style="stroke:#ae0000;stroke-opacity:1" />
+  <text
+     x="680"
+     y="503"
+     class="val"
+     font-size="12"
+     id="text111">11 <tspan dy="-2" font-size="9">3</tspan><tspan dy="2" font-size="10">/</tspan><tspan dy="2" font-size="9">4</tspan></text>
+  <text
+     x="680"
+     y="517"
+     class="val"
+     font-size="12"
+     id="text112">11 <tspan dy="-2" font-size="9">3</tspan><tspan dy="2" font-size="10">/</tspan><tspan dy="2" font-size="9">8</tspan></text>
+  <circle
+     cx="760"
+     cy="510"
+     r="25"
+     class="node"
+     id="circle112"
+     style="stroke:#ae0000;stroke-opacity:1" />
+  <text
+     x="760"
+     y="503"
+     class="val"
+     font-size="12"
+     id="text113">13 <tspan dy="-2" font-size="9">3</tspan><tspan dy="2" font-size="10">/</tspan><tspan dy="2" font-size="9">8</tspan></text>
+  <text
+     x="760"
+     y="517"
+     class="val"
+     font-size="12"
+     id="text114">14</text>
+  <!-- Row 7 -->
+  <circle
+     cx="330"
+     cy="590"
+     r="25"
+     class="node"
+     id="circle114" />
+  <text
+     x="330"
+     y="590"
+     class="val"
+     font-size="12"
+     id="text115">10 <tspan dy="-2" font-size="9">5</tspan><tspan dy="2" font-size="10">/</tspan><tspan dy="2" font-size="9">8</tspan></text>
+  <circle
+     cx="510"
+     cy="590"
+     r="25"
+     class="node"
+     id="circle115" />
+  <text
+     x="510"
+     y="590"
+     class="val"
+     font-size="12"
+     id="text116">12 <tspan dy="-2" font-size="9">1</tspan><tspan dy="2" font-size="10">/</tspan><tspan dy="2" font-size="9">4</tspan></text>
+  <circle
+     cx="595"
+     cy="590"
+     r="25"
+     class="node"
+     id="circle116" />
+  <text
+     x="595"
+     y="583"
+     class="val"
+     font-size="12"
+     id="text117">14 <tspan dy="-2" font-size="9">1</tspan><tspan dy="2" font-size="10">/</tspan><tspan dy="2" font-size="9">2</tspan></text>
+  <text
+     x="595"
+     y="597"
+     class="val"
+     font-size="12"
+     id="text118">14 <tspan dy="-2" font-size="9">3</tspan><tspan dy="2" font-size="10">/</tspan><tspan dy="2" font-size="9">4</tspan></text>
+  <circle
+     cx="680"
+     cy="590"
+     r="25"
+     class="node"
+     id="circle118" />
+  <text
+     x="680"
+     y="590"
+     class="val"
+     font-size="12"
+     id="text119">16</text>
+  <circle
+     cx="760"
+     cy="590"
+     r="25"
+     class="node"
+     id="circle119" />
+  <text
+     x="760"
+     y="590"
+     class="val"
+     font-size="12"
+     id="text120">17 <tspan dy="-2" font-size="9">1</tspan><tspan dy="2" font-size="10">/</tspan><tspan dy="2" font-size="9">2</tspan></text>
+  <!-- Row 8 -->
+  <circle
+     cx="330"
+     cy="670"
+     r="25"
+     class="node"
+     id="circle120"
+     style="stroke:#ae0000;stroke-opacity:1" />
+  <text
+     x="330"
+     y="663"
+     class="val"
+     font-size="12"
+     id="text121">11 <tspan dy="-2" font-size="9">3</tspan><tspan dy="2" font-size="10">/</tspan><tspan dy="2" font-size="9">4</tspan></text>
+  <text
+     x="330"
+     y="677"
+     class="val"
+     font-size="12"
+     id="text122">11 <tspan dy="-2" font-size="9">7</tspan><tspan dy="2" font-size="10">/</tspan><tspan dy="2" font-size="9">8</tspan></text>
+  <circle
+     cx="510"
+     cy="670"
+     r="25"
+     class="node"
+     id="circle122"
+     style="stroke:#ae0000;stroke-opacity:1" />
+  <text
+     x="510"
+     y="663"
+     class="val"
+     font-size="12"
+     id="text123">13 <tspan dy="-2" font-size="9">3</tspan><tspan dy="2" font-size="10">/</tspan><tspan dy="2" font-size="9">8</tspan></text>
+  <text
+     x="510"
+     y="677"
+     class="val"
+     font-size="12"
+     id="text124">14</text>
+  <circle
+     cx="595"
+     cy="670"
+     r="25"
+     class="node"
+     id="circle124"
+     style="stroke:#ae0000;stroke-opacity:1" />
+  <text
+     x="595"
+     y="670"
+     class="val"
+     font-size="12"
+     id="text125">16</text>
+  <circle
+     cx="680"
+     cy="670"
+     r="25"
+     class="node"
+     id="circle125"
+     style="stroke:#ae0000;stroke-opacity:1" />
+  <text
+     x="680"
+     y="670"
+     class="val"
+     font-size="12"
+     id="text126">18 <tspan dy="-2" font-size="9">5</tspan><tspan dy="2" font-size="10">/</tspan><tspan dy="2" font-size="9">8</tspan></text>
+  <circle
+     cx="760"
+     cy="670"
+     r="25"
+     class="node"
+     id="circle126"
+     style="stroke:#ae0000;stroke-opacity:1" />
+  <text
+     x="760"
+     y="670"
+     class="val"
+     font-size="12"
+     id="text127">20</text>
+  <!-- Row 9 -->
+  <circle
+     cx="330"
+     cy="750"
+     r="25"
+     class="node"
+     id="circle127" />
+  <text
+     x="330"
+     y="743"
+     class="val"
+     font-size="12"
+     id="text128">14 <tspan dy="-2" font-size="9">1</tspan><tspan dy="2" font-size="10">/</tspan><tspan dy="2" font-size="9">2</tspan></text>
+  <text
+     x="330"
+     y="757"
+     class="val"
+     font-size="12"
+     id="text129">14 <tspan dy="-2" font-size="9">3</tspan><tspan dy="2" font-size="10">/</tspan><tspan dy="2" font-size="9">4</tspan></text>
+  <circle
+     cx="425"
+     cy="750"
+     r="25"
+     class="node"
+     id="circle129" />
+  <text
+     x="425"
+     y="750"
+     class="val"
+     font-size="12"
+     id="text130">16</text>
+  <circle
+     cx="510"
+     cy="750"
+     r="25"
+     class="node"
+     id="circle130" />
+  <text
+     x="510"
+     y="750"
+     class="val"
+     font-size="12"
+     id="text131">17 <tspan dy="-2" font-size="9">1</tspan><tspan dy="2" font-size="10">/</tspan><tspan dy="2" font-size="9">2</tspan></text>
+  <circle
+     cx="595"
+     cy="750"
+     r="25"
+     class="node"
+     id="circle131" />
+  <text
+     x="595"
+     y="750"
+     class="val"
+     font-size="12"
+     id="text132">20</text>
+  <circle
+     cx="680"
+     cy="750"
+     r="25"
+     class="node"
+     id="circle132" />
+  <text
+     x="680"
+     y="750"
+     class="val"
+     font-size="12"
+     id="text133">24</text>
+  <circle
+     cx="760"
+     cy="750"
+     r="25"
+     class="node"
+     id="circle133" />
+  <text
+     x="760"
+     y="750"
+     class="val"
+     font-size="12"
+     id="text134">26</text>
+  <!-- Row 10 -->
+  <circle
+     cx="330"
+     cy="830"
+     r="25"
+     class="node"
+     id="circle134"
+     style="stroke:#ae0000;stroke-opacity:1" />
+  <text
+     x="330"
+     y="830"
+     class="val"
+     font-size="12"
+     id="text135">16</text>
+  <circle
+     cx="425"
+     cy="830"
+     r="25"
+     class="node"
+     id="circle135"
+     style="stroke:#ae0000;stroke-opacity:1" />
+  <text
+     x="425"
+     y="830"
+     class="val"
+     font-size="12"
+     id="text136">18 <tspan dy="-2" font-size="9">5</tspan><tspan dy="2" font-size="10">/</tspan><tspan dy="2" font-size="9">8</tspan></text>
+  <circle
+     cx="510"
+     cy="830"
+     r="25"
+     class="node"
+     id="circle136"
+     style="stroke:#ae0000;stroke-opacity:1" />
+  <text
+     x="510"
+     y="830"
+     class="val"
+     font-size="12"
+     id="text137">20</text>
+  <circle
+     cx="595"
+     cy="830"
+     r="25"
+     class="node"
+     id="circle137"
+     style="stroke:#ae0000;stroke-opacity:1" />
+  <text
+     x="595"
+     y="830"
+     class="val"
+     font-size="12"
+     id="text138">24</text>
+  <circle
+     cx="760"
+     cy="830"
+     r="25"
+     class="node"
+     id="circle138"
+     style="stroke:#ae0000;stroke-opacity:1" />
+  <text
+     x="760"
+     y="830"
+     class="val"
+     font-size="12"
+     id="text139">30</text>
+  <!-- Legend -->
+  <g
+     transform="translate(540, 910)"
+     font-size="13"
+     id="g142">
+    <line
+       x1="0"
+       y1="0"
+       x2="50"
+       y2="0"
+       class="arrow"
+       id="line139" />
+    <text
+       x="60"
+       y="5"
+       id="text140">Standard</text>
+    <line
+       x1="0"
+       y1="35"
+       x2="50"
+       y2="35"
+       class="arrow dashed"
+       id="line140" />
+    <text
+       x="60"
+       y="32"
+       id="text141"><tspan
+         sodipodi:role="line"
+         id="tspan143"
+         x="60"
+         y="32">Small annulus gap between</tspan><tspan
+         sodipodi:role="line"
+         id="tspan144"
+         x="60"
+         y="48.25">wellbore and casing</tspan></text>
+    <text
+       x="60"
+       y="48"
+       id="text142" />
+  </g>
+</svg>
