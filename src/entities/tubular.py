@@ -24,6 +24,11 @@ class TubularData:
         return max(self.od - 2 * self.wt, 0.0)
 
     @property
+    def slenderness_ratio(self) -> float:
+        """D/t slenderness ratio (alias for od_to_wt_ratio)."""
+        return self.od / self.wt
+
+    @property
     def od_to_wt_ratio(self) -> float:
         """D/t ratio."""
         return self.od / self.wt
