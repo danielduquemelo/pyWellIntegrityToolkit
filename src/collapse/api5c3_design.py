@@ -1,7 +1,7 @@
 # src/collapse/api5c3.py
 from typing import Optional
 import numpy as np
-from .base import CollapseMethod, CollapseResult
+from .abc_collapse import CollapseMethod, CollapseResult
 from ..entities.tubular import TubularData
 from ..entities.steel_grade import SteelGrade
 from ..entities.tubular_load_case import TubularLoadCase

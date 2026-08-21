@@ -1,6 +1,6 @@
 # src/collapse/registry.py
 from typing import Dict, Type
-from .base import CollapseMethod
+from .abc_collapse import CollapseMethod
 
 
 class CollapseMethodRegistry:
@@ -28,8 +28,8 @@ class CollapseMethodRegistry:
 
 
 # Auto-register methods
-from .api5c3_design import API5C3Method
+from .api5c3_design import API5C3DesignMethod
 from .klever_tamano import KleverTamanoMethod
 
-CollapseMethodRegistry.register(API5C3Method)
+CollapseMethodRegistry.register(API5C3DesignMethod)
 CollapseMethodRegistry.register(KleverTamanoMethod)

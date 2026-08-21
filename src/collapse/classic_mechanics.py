@@ -2,7 +2,7 @@
 from os import pipe
 from typing import Optional
 import numpy as np
-from .base import CollapseMethod, CollapseResult
+from .abc_collapse import CollapseMethod, CollapseResult
 from ..entities.tubular import TubularData
 from ..entities.steel_grade import SteelGrade
 from ..entities.tubular_load_case import TubularLoadCase
@@ -44,7 +44,7 @@ class ClassicalMethod(CollapseMethod):
         Py = self._plastic_collapse_pressure(tubular, material, loading)
         smys_eff = effective_yield_strength(material, loading)
 
-        delta_ov = tubular.ovality_percent / 100.0
+        delta_ov = tubular.ovality / 100.0
         oval_factor = 1 + 3.0 * delta_ov * slen
         Pc = ((Py + Pe * oval_factor) - np.sqrt((Py + Pe * oval_factor)**2 - 4 * Py * Pe)) / 2.0
         inner_pressure = loading.internal_pressure if loading else 0.0
@@ -78,5 +78,5 @@ class ClinedinstClassicalMethod(ClassicalMethod):
         """Calculate elastic collapse pressure."""
         slen = tubular.od_to_wt_ratio
         print(material)
-        E_ = material.young_modulus_psi / (1 - material.poisson_ratio**2)
+        E_ = material.young_modulus / (1 - material.poisson_ratio**2)
         return 2 * E_ * (slen**-1) * ((slen-1)**-2)

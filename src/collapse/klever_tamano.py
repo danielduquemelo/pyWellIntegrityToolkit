@@ -1,7 +1,7 @@
 from typing import Optional
 import numpy as np
 from ..entities.klever_tamano_parameters import KleverTamanoParameters, DEFAULT_KT_PARAMS
-from .base import CollapseMethod, CollapseResult
+from .abc_collapse import CollapseMethod, CollapseResult
 from ..entities.tubular import TubularData
 from ..entities.steel_grade import SteelGrade
 from ..entities.tubular_load_case import TubularLoadCase
@@ -14,13 +14,14 @@ def original_parameter_c(slenderness_ratio: float) -> float:
 
 def calc_kt_imperfection_factor(
     tubular: TubularData,
+    material: SteelGrade,
     kt_params: KleverTamanoParameters = DEFAULT_KT_PARAMS
 ) -> float:
     """Calculate total imperfection factor Ht."""
     Ht = (
-        0.127 * tubular.ovality / 100.0
-        + 0.0039 * tubular.eccentricity / 100.0
-        - 0.44 * kt_params.residual_stress
+        0.127 * tubular.ovality
+        + 0.0039 * tubular.eccentricity
+        - 0.44 * (kt_params.residual_stress / material.yield_strength)
         + kt_params.Hn
     )
     return max(0.0, Ht)
@@ -49,8 +50,9 @@ def calc_kt_plastic_collapse(
     slen = tubular.slenderness_ratio
     eta = 1.0 / (slen - 1)
 
-    smys_eff = effective_yield_strength(material, loading)
-    Sy1 = kt_params.kyls * (1 - kt_params.Hy) * smys_eff
+    smys = material.yield_strength
+    # smys_eff = effective_yield_strength(material, loading)
+    Sy1 = kt_params.kyls * (1 - kt_params.Hy) * smys
 
     # Stress interaction factor (ISO 10400 Annex C)
     axial_stress = loading.axial_stress if loading else 0.0
@@ -58,17 +60,15 @@ def calc_kt_plastic_collapse(
     Si = (axial_stress + inner_pressure) / Sy1
 
     # Calculate plastic pressure
-    part1 = eta * Sy1 * (4 * (1 + 2 * eta)) / (3 + (1 + 2 * eta)**2)
-    Part2_1 = -Si + (1 + 3 * (1 - Si**2) / ((1 + 2 * eta)**2))**0.5
-    Part2_2 = -Si - (1 + 3 * (1 - Si**2) / ((1 + 2 * eta)**2))**0.5
+    A = eta * Sy1 * (4 * (1 + 2 * eta)) / (3 + (1 + 2 * eta)**2)
+    B = (1 + 3 * (1 - Si**2) / ((1 + 2 * eta)**2))**0.5
 
-    deltaPy1 = part1 * Part2_1
-    deltaPy2 = part1 * Part2_2
-    deltaPy = max(deltaPy1, deltaPy2)
-    average = 0.5 * (deltaPy + 2 * eta * Sy1)
+    Pym1 = A * (-Si + B)
+    Pym2 = A * (-Si - B)
+    Pym = max(Pym1, Pym2)
 
-    Py = min(deltaPy, average)
-    return Py
+    Pyc = min(Pym, 0.5*(Pym + 2 * eta * Sy1))
+    return Pyc
 
 def get_kt_regime_from_pressures(elastic_collapse: float, plastic_collapse: float) -> str:
     lambda_collapse = plastic_collapse / elastic_collapse
@@ -114,7 +114,7 @@ class KleverTamanoMethod(CollapseMethod):
         """Calculate Klever-Tamano collapse pressure."""
         Pe = calc_kt_elastic_collapse(tubular, material, kt_params)
         Py = calc_kt_plastic_collapse(tubular, material, kt_params, loading)
-        Ht = calc_kt_imperfection_factor(tubular, kt_params)
+        Ht = calc_kt_imperfection_factor(tubular, material, kt_params)
         regime = get_kt_regime_from_pressures(Pe, Py)
         # Combined collapse pressure with imperfections
         Pc = 2 * (Py * Pe) / (Py + Pe + ((Py - Pe)**2 + 4 * Ht * Py * Pe)**0.5)
