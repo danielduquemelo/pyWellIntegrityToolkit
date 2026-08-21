@@ -3,7 +3,7 @@ import pandas as pd
 def get_VAM_OCTG_data(xlsx_path, basic=True):
     df_vam_data = pd.read_excel(xlsx_path)
     df_vam_by_grade = split_VAM_OCTG_data_by_grade(df_vam_data)
-    df_vam_by_grade['Slenderness Ratio'] = df_vam_by_grade['Size (OD)'] / df_vam_by_grade['Wall Thickness (in)']
+    df_vam_by_grade['Slenderness Ratio'] = df_vam_by_grade['Size OD (in)'] / df_vam_by_grade['Wall Thickness (in)']
 
     if basic:
         return get_basic_pipe_options(df_vam_by_grade)
@@ -44,9 +44,9 @@ def split_VAM_OCTG_data_by_grade(df_vam_data):
 
 def get_basic_pipe_options(df_vam_by_grade):
     return (
-        df_vam_by_grade[["Size (OD)", "Wall Thickness (in)", "Yield stress (ksi)", "Slenderness Ratio"]]
+        df_vam_by_grade[["Size OD (in)", "Wall Thickness (in)", "Yield stress (ksi)", "Slenderness Ratio"]]
         .drop_duplicates()
-        .sort_values(["Size (OD)", "Wall Thickness (in)", "Yield stress (ksi)", "Slenderness Ratio"])
+        .sort_values(["Size OD (in)", "Wall Thickness (in)", "Yield stress (ksi)", "Slenderness Ratio"])
         .reset_index(drop=True)
     )
 
