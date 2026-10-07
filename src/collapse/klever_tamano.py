@@ -8,8 +8,8 @@ from ..entities.tubular_load_case import TubularLoadCase
 from .effective_yield import effective_yield_strength
 
 
-def original_parameter_c(slenderness_ratio: float) -> float:
-    """Original Clinedinst factor c."""
+def kt_param_c_ISO(slenderness_ratio: float) -> float:
+    """Original Clinedinst factor c in ISO/TR 10400 form: c = -1 + t/D"""
     return -1.0 + 1.0 / slenderness_ratio  # Clinedinst factor
 
 def calc_kt_imperfection_factor(
@@ -34,10 +34,10 @@ def calc_kt_elastic_collapse(
     """Calculate elastic collapse pressure for klever tamano method."""
     slen = tubular.slenderness_ratio
     eta = 1.0 / (slen - 1)
-    # c = -1.0 + 1.0 / slen  # Clinedinst factor
+    c = kt_params.c if kt_params.c is not None else kt_param_c_ISO(slen)
 
     E1 = kt_params.kels * (1 - kt_params.He) * material.young_modulus
-    Pe = 2 * (E1 / (1 - material.poisson_ratio**2)) * (eta**3) * (1 + kt_params.c * eta)
+    Pe = 2 * (E1 / (1 - material.poisson_ratio**2)) * (eta**3) * (1 + c * eta)
     return Pe
 
 def calc_kt_plastic_collapse(
